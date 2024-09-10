@@ -1,0 +1,127 @@
+@import url('https://fonts.cdnfonts.com/css/sst');
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 1275px;
+    margin: auto;
+}
+
+main header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+main header li {
+    color: white;
+    list-style-type: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: 'SST', sans-serif;
+    font-size: 11px;
+}
+
+header input {
+    margin-top: 25px;
+    margin-left: 10px;
+    max-height: 20px;
+    width: 500px;
+}
+
+img {
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+#Sony {
+    width: 100px;
+    height: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.menuCabecera{
+    display: flex;
+    padding-top: 50px;
+    font-size: large;
+}
+
+#Telefono {
+    width: 35px;
+    height: 35px;
+}
+
+#numero {
+    font-size: large;
+}
+
+nav {
+    background-color: white;
+}
+
+nav ol {
+    color: gray;
+    display: flex;  
+    text-transform: uppercase;
+    font-family: 'SST', sans-serif;
+    list-style-type: none;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+}
+
+nav ol li {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+nav ol li:hover {
+    color: black;
+}
+
+.seccionBanner {
+    background-image: url(img/bannerm.JPG);
+    height: 383px;
+    margin-left: 100px;
+
+}
+
+h2 {
+    margin-top: 0px;
+    color: #dddddd;
+    font-size: 10px;
+    padding-top: 70px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+    margin-top: 0px;
+    color: #dddddd;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    margin-left: 50px;
+    background-color: rgb(82, 115, 207);
+    color: white;
+    outline: none;
+    box-shadow: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+}
